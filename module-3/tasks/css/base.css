@@ -1,0 +1,18 @@
+/* Шрифт - Pathway Gothic One, но подключение шрифтов пока не проходили, поэтому используем шрифт по умолчанию */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+}
+
+.wrapper{
+  width: 480px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 59px 37px;
+}
