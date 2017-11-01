@@ -1,0 +1,96 @@
+/*@import 'base.css';
+@import 'articles.css';
+@import 'list.css';*/
+
+/* Шрифт - Pathway Gothic One, но подключение шрифтов пока не проходили, поэтому используем шрифт по умолчанию */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.wrapper{
+  width: 480px;
+  margin: 240px auto;
+  background-color: #fff;
+  padding: 59px 37px 44px;
+}
+
+.article{
+  margin-bottom: 50px;
+}
+
+.article:last-child{
+  margin-bottom: 0;
+  padding-top: 50px;
+  border-top: 1px solid #dedbdb;
+}
+
+.article-title{
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #263555;
+  margin-bottom: 32px;
+}
+
+.article-img{
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.article-subtitle{
+  font-size: 14px;
+  color: #263555;
+  margin-bottom: 22px;
+}
+
+.article-text{
+  font-size: 12px;
+  color: #4e5050;
+  margin-bottom: 25px;
+}
+
+.article-text:last-child{
+    margin-bottom: 0;
+}
+
+.list{
+    /*list-style-image: url(../img/arrow.png);
+    margin-left: 18px;*/
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+}
+
+.list-left{
+    margin-left: 25px;
+}
+
+.list-right{
+    margin-left: 54px;
+}
+
+.list-item{
+    margin-bottom: 15px;
+}
+
+.list-item:last-child{
+    margin-bottom: 0;
+}
+
+.list-link{
+    font-size: 14px;
+    color: #263555;
+    text-decoration: none;
+/*    margin-left: 5px;*/
+}
+
+.list-link:hover{
+    text-decoration: underline;
+}
