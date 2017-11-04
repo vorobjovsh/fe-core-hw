@@ -1,0 +1,19 @@
+.list{
+    
+}
+
+.list-item{
+    float: left;
+}
+
+.list-link{
+    padding: 5px 10px;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.list-link:hover{
+    color: red;
+    text-decoration: none;
+    background-color: green;
+}

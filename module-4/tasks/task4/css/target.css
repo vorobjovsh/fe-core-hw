@@ -1,0 +1,35 @@
+.list{
+    margin-bottom: 20px;
+}
+
+.list-item{
+    margin-bottom: 20px;
+}
+
+.list-item:last-child{
+    margin-bottom: 0;
+}
+
+.list-link{
+    padding: 5px 10px;
+    color: #0E1116;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.list-link:hover{
+    text-decoration: underline;
+}
+
+.item-text{
+    margin-bottom: 20px;
+    text-indent: 30px;
+}
+
+.item-text:last-child{
+    margin-bottom: 0;
+}
+
+#first:target, #second:target, #third:target, #fourth:target, #fifth:target{
+    color: red;
+}

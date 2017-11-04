@@ -1,0 +1,23 @@
+.list{
+    counter-reset: list;
+}
+
+.list-item{
+    counter-increment: list;
+    margin-bottom: 20px;
+}
+
+.list-item:last-child{
+    margin-bottom: 0;
+}
+
+.list-item::before{
+    display: inline-block;
+    content: counter(list);
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px;
+}
