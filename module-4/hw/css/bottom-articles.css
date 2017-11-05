@@ -1,0 +1,98 @@
+/*What we offer*/
+/*-----------------------------------------*/
+.bottom-articles{
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.bottom-articles .article-title{
+    margin-bottom: 65px;
+}
+
+.bottom-articles .article-subtitle{
+    margin-bottom: 25px;
+}
+
+.bottom-articles .article-text{
+    margin-bottom: 0;
+}
+
+.arrow-block{
+    margin-top: 30px;
+}
+
+.list-arrow{
+    float: left;
+    margin-right: 40px;
+}
+
+.list-arrow:last-child{
+    margin-right: 0;
+}
+
+.arrow-item{
+    margin-bottom: 25px;
+}
+
+.arrow-item:last-child{
+    margin-bottom: 0;
+}
+
+.arrow-item::before{
+    content: "→";
+    margin-right: 15px;
+    color: #38afe5;
+}
+
+.arrow-link{
+    color: #263555;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.arrow-link:hover{
+    text-decoration: underline;
+}
+
+
+/*Testimonial*/
+/*-------------------------------------------*/
+.citations{
+    float: right;
+    width: 25%;
+}
+
+.citations-title{
+    margin-bottom: 23px;
+}
+
+.citations-text{
+    padding: 23px;
+    margin-bottom: 60px;
+    border: 1px solid #e9e6e6;
+    background-color: #fcfafa;
+    border-radius: 2px;
+    box-shadow: 0px 1px 5px 0px rgba(243,242,242,1);
+}
+
+.citations-text::before{
+    content: "\201F";
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.citations-text::after{
+    content: "\201D";
+    margin-left: 5px;
+}
+
+.citations-author{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #263555;
+}
+
+.citations-position{
+    text-align: center;
+}

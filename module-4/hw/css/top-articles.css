@@ -1,0 +1,88 @@
+/*Agency profile*/
+/*----------------------------------*/
+.top-articles{
+   padding-bottom: 50px;
+   border-bottom: 1px solid #dedbdb;
+}
+
+.article{
+    float: left;
+    width: 70%;
+}
+
+.article-title{
+    margin-bottom: 48px;
+}
+
+.article-img{
+    float: left;
+    margin: 0 25px 25px 0;
+}
+
+.article-block{
+    
+}
+
+.article-subtitle{
+    margin-bottom: 15px;
+}
+
+.article-text{
+    margin-bottom: 15px;
+}
+
+.article-text:last-child{
+    margin-bottom: 0;
+}
+
+
+/*Our principles*/
+/*---------------------------------------*/
+.principles{
+    float: right;
+    width: 25%;
+}
+
+.principles-title{
+    margin-bottom: 48px;
+}
+
+.principles-list{
+    counter-reset: list;
+}
+
+.list-item{
+    margin-bottom: 30px;
+}
+
+.list-item:last-child{
+    margin-bottom: 0;
+}
+
+.list-item::before {
+	counter-increment: list;
+	content: counter(list);
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background-color: #1789fc;
+	color: #fefefe;
+	text-align: center;
+	line-height: 30px;
+}
+
+.list-article{
+    display: inline-block;
+	width: calc(100% - 46px);
+	vertical-align: top;
+}
+
+.list-subtitle{
+    margin-bottom: 20px;
+}
+
+.list-text{
+    
+}
