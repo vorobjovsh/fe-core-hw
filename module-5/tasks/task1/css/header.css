@@ -1,0 +1,22 @@
+.header{
+   padding: 45px 100px 50px; 
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+    width: 138px;
+    height: 138px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.logo-link{
+    font-family: 'Dorsa', sans-serif;
+    font-size: 60px;
+    color: #263555;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 138px;
+}

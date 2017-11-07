@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.clearfix:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.wrapper{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.list{
+    list-style: none;
+}
