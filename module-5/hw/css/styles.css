@@ -1,3 +1,6 @@
 @import 'base.css';
-@import 'top-articles.css';
-@import 'bottom-articles.css';
+@import 'header.css';
+@import 'main.css';
+@import 'slider.css';
+@import 'destinations.css';
+@import 'footer.css';
