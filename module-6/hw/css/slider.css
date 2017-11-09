@@ -1,0 +1,75 @@
+.slider{
+    position: relative;
+    margin-bottom: 55px;
+}
+
+.slider-img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.slider-subtitle{
+    position: absolute;
+    top: 215px;
+    left: 0;
+    font-family: 'Pathway Gothic One', sans-serif; 
+    font-size: 22px;
+    color: #263555;
+    background-color: #fff;
+    border: 1px solid #ecedec;
+    padding: 20px 15px;
+    text-transform: uppercase;
+    z-index: 3;
+}
+
+.slider-title{
+    position: absolute;
+    top: 281px;
+    left: 0;
+    font-family: 'Pathway Gothic One', sans-serif; 
+    font-size: 34px;
+    color: #fff;
+    background-color: #38afe5;
+    padding: 15px 5px 15px 15px;
+    text-transform: uppercase;
+}
+
+.slider-controls{
+    position: absolute;
+    bottom: 36px;
+    left: 36px;
+    z-index: 2;
+}
+
+.slider-prev, .slider-next{
+    float: left;
+    width: 45px;
+    height: 90px;
+    background-color: hsla(199, 77%, 56%, 1);
+    text-decoration: none;
+	line-height: 90px;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+}
+
+.slider-prev{
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+}
+
+.slider-next{
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+}
+
+.slider-prev::before{
+    content: "\2190";
+}
+
+.slider-next::before{
+    content: "\2192";
+}
+
+.slider-prev:hover, .slider-next:hover{
+    background-color: hsla(199, 77%, 56%, 0.7);
+}

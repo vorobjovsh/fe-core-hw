@@ -1,0 +1,25 @@
+.main{
+   position: relative;
+   background-color: #fff;
+   padding: 60px 60px 135px;
+}
+
+.top{
+    position: absolute;
+    bottom: 25px;
+    right: 15px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #38afe5;
+    font-size: 15px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.top::before{
+    content: "\22C0";
+}

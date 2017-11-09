@@ -1,0 +1,54 @@
+.footer{
+    
+}
+
+.footer-top{
+    min-height: 8.375rem;
+    background-color: #30455b;
+    padding: 2.875rem 8.75rem;
+}
+
+.footer-bottom{
+    padding: 1.75rem 0 1.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-icons{
+    display: flex;
+    margin-bottom: 1.5625rem;
+}
+
+.footer-icon{
+    width: 2.5rem; 
+    height: 2.5rem;
+    margin-right: 0.875rem;
+    filter: opacity(1);
+}
+
+.footer-icon:hover{
+    filter: opacity(0.7);
+}
+
+.tweet-icon{
+    background: url('../img/css_sprites.png') -70px -70px;
+}
+
+.fb-icon{
+    background: url('../img/css_sprites.png') -10px -10px;
+}
+
+.google-icon{
+    background: url('../img/css_sprites.png') -70px -10px;
+}
+
+.ln-icon{
+    background: url('../img/css_sprites.png') -10px -70px;
+}
+
+.bottom-copyright{
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 0.75rem;
+    color: #fff;
+}
