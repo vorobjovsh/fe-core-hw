@@ -26,6 +26,7 @@
 
 .list-arrow{
     margin-right: 2.5rem;
+    columns: 2;
 }
 
 .list-arrow:last-child{
@@ -60,7 +61,7 @@
 /*Testimonial*/
 /*-------------------------------------------*/
 .citations{
-    width: 25%;
+    flex-basis: 25%;
 }
 
 .citations-title{

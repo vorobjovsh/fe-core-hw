@@ -8,7 +8,7 @@
 }
 
 .article{
-    width: 70%;
+    flex-basis: 70%;
 }
 
 .article-title{
@@ -47,7 +47,7 @@
 /*Our principles*/
 /*---------------------------------------*/
 .principles{
-    width: 25%;
+    flex-basis: 25%;
 }
 
 .principles-title{
@@ -60,6 +60,7 @@
 
 .list-item{
     margin-bottom: 1.875rem;
+    display: flex;
 }
 
 .list-item:last-child{
@@ -67,6 +68,7 @@
 }
 
 .list-item::before {
+    flex-shrink: 0;
 	counter-increment: list;
 	content: counter(list);
 	display: inline-block;
@@ -81,9 +83,7 @@
 }
 
 .list-article{
-    display: inline-block;
 	width: calc(100% - 2.875rem);
-	vertical-align: top;
 }
 
 .list-subtitle{

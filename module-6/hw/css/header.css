@@ -1,7 +1,6 @@
 .header{
-   padding: 6.25rem 6.25rem 0;
+   padding: 6.25rem 6.25rem;
    position: relative;
-   min-height: 14.375rem;
 }
 
 .logo{
@@ -16,6 +15,7 @@
     border-radius: 50%;
     text-align: center;
     transform: translate(-50%,-50%);
+    line-height: 8.625rem;
 }
 
 .logo-link{
@@ -24,7 +24,6 @@
     color: #263555;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 8.625rem;
 }
 
 .nav{
@@ -69,7 +68,8 @@
     text-align: center;
     z-index: 10;
     margin-top: 0.1875rem;
-    left: -0.375rem;
+    left: -50%;
+    transform: translateX(50%);
     border-radius: 0.125rem;
 }
 
