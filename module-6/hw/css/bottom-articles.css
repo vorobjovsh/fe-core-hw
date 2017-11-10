@@ -1,0 +1,120 @@
+/*What we offer*/
+/*-----------------------------------------*/
+.bottom-articles{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.75rem;
+    margin-bottom: 0;
+}
+
+.bottom-articles .article-title{
+    margin-bottom: 4.0625rem;
+}
+
+.bottom-articles .article-subtitle{
+    margin-bottom: 1.5625rem;
+}
+
+.bottom-articles .article-text{
+    margin-bottom: 0;
+}
+
+.arrow-block{
+    display: flex;
+    margin-top: 1.875rem;
+}
+
+.list-arrow{
+    margin-right: 2.5rem;
+}
+
+.list-arrow:last-child{
+    margin-right: 0;
+}
+
+.arrow-item{
+    margin-bottom: 1.5625rem;
+}
+
+.arrow-item:last-child{
+    margin-bottom: 0;
+}
+
+.arrow-item::before{
+    content: "→";
+    margin-right: 0.9375rem;
+    color: #38afe5;
+}
+
+.arrow-link{
+    color: #263555;
+    font-size: 0.9375rem;
+    text-decoration: none;
+}
+
+.arrow-link:hover{
+    text-decoration: underline;
+}
+
+
+/*Testimonial*/
+/*-------------------------------------------*/
+.citations{
+    width: 25%;
+}
+
+.citations-title{
+    margin-bottom: 1.4375rem;
+}
+
+.citations-block{
+    position: relative;
+}
+
+.citations-block::after{
+    position: absolute;
+    content: url(../img/triangle.jpg);
+    width: 1.875rem;
+    height: 1.875rem;
+    bottom: -2.75rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.citations-text{
+    padding: 1.4375rem;
+    border: 0.0625rem solid #e9e6e6;
+    background-color: #fcfafa;
+    border-radius: 0.125rem;
+    box-shadow: 0 0.0625rem 0.3125rem 0 rgba(243,242,242,1);
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    color: #263555;
+    font-size: 0.9375rem;
+}
+
+.citations-text::before{
+    content: "\201F";
+    margin-right: 0.3125rem;
+    margin-left: 0.3125rem;
+}
+
+.citations-text::after{
+    content: "\201D";
+    margin-left: 0.3125rem;
+}
+
+.citations-author{
+    margin-top: 3.75rem;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #263555;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
+.citations-position{
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    color: #4e5050;
+    font-size: 0.8125rem;
+    text-align: center;
+}

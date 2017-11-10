@@ -1,0 +1,101 @@
+/*Agency profile*/
+/*----------------------------------*/
+.top-articles{
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 3.125rem;
+   border-bottom: 0.0625rem solid #dedbdb;
+}
+
+.article{
+    width: 70%;
+}
+
+.article-title{
+    margin-bottom: 3rem;
+}
+
+.article-img{
+    float: left;
+    margin: 0 1.5625rem 1.5625rem 0;
+}
+
+.article-block{
+    
+}
+
+.article-subtitle{
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    color: #263555;
+    font-size: 0.9375rem;
+    font-weight: normal;
+    margin-bottom: 0.9375rem;
+}
+
+.article-text{
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    color: #4e5050;
+    font-size: 0.8125rem; 
+    margin-bottom: 0.9375rem;
+}
+
+.article-text:last-child{
+    margin-bottom: 0;
+}
+
+
+/*Our principles*/
+/*---------------------------------------*/
+.principles{
+    width: 25%;
+}
+
+.principles-title{
+    margin-bottom: 3rem;
+}
+
+.principles-list{
+    counter-reset: list;
+}
+
+.list-item{
+    margin-bottom: 1.875rem;
+}
+
+.list-item:last-child{
+    margin-bottom: 0;
+}
+
+.list-item::before {
+	counter-increment: list;
+	content: counter(list);
+	display: inline-block;
+	width: 1.875rem;
+	height: 1.875rem;
+	margin-right: 0.625rem;
+	border-radius: 50%;
+	background-color: #1789fc;
+	color: #fefefe;
+	text-align: center;
+	line-height: 1.875rem;
+}
+
+.list-article{
+    display: inline-block;
+	width: calc(100% - 2.875rem);
+	vertical-align: top;
+}
+
+.list-subtitle{
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    color: #263555;
+    font-size: 0.9375rem;
+    font-weight: normal;
+    margin-bottom: 1.25rem;
+}
+
+.list-text{
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    color: #4e5050;
+    font-size: 0.8125rem;
+}

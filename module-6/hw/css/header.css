@@ -1,0 +1,109 @@
+.header{
+   padding: 6.25rem 6.25rem 0;
+   position: relative;
+   min-height: 14.375rem;
+}
+
+.logo{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    width: 8.625rem;
+    height: 8.625rem;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.logo-link{
+    font-family: 'Dorsa', sans-serif;
+    font-size: 3.75rem;
+    color: #263555;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 8.625rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item{
+    position: relative;
+/*    margin-right: 3.4375rem;*/
+}
+
+.nav-item:nth-child(3){
+    margin-right: 7.125rem;
+}
+
+.nav-item:nth-child(4){
+    margin-left: 7.125rem;
+}
+
+.nav-item:last-child{
+    margin-right: 0;
+}
+
+.nav-link{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.75rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: #263555;
+}
+
+.nav-submenu{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 0.375rem 0.625rem;
+    text-align: center;
+    z-index: 10;
+    margin-top: 0.1875rem;
+    left: -0.375rem;
+    border-radius: 0.125rem;
+}
+
+.nav-submenu::before{
+    position: absolute;
+    content: "";
+    border: 0.3125rem solid transparent; 
+    border-bottom: 0.3125rem solid #fff; 
+    top: -0.25rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.nav-item:hover>.nav-submenu {
+  display: block; 
+}
+
+.submenu-item{
+    margin-bottom: 0.125rem;
+    display: block;
+}
+
+.submenu-item:last-child{
+    margin-bottom: 0;
+}
+
+.submenu-link{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.25rem;
+    color: #6b7488;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.submenu-link:hover{
+    color: #263555;
+}
