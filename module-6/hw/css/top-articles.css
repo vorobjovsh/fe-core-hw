@@ -25,7 +25,6 @@
 }
 
 .article-subtitle{
-    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
     color: #263555;
     font-size: 0.9375rem;
     font-weight: normal;
@@ -33,7 +32,6 @@
 }
 
 .article-text{
-    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
     color: #4e5050;
     font-size: 0.8125rem; 
     margin-bottom: 0.9375rem;
@@ -87,7 +85,6 @@
 }
 
 .list-subtitle{
-    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
     color: #263555;
     font-size: 0.9375rem;
     font-weight: normal;
@@ -95,7 +92,6 @@
 }
 
 .list-text{
-    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
     color: #4e5050;
     font-size: 0.8125rem;
 }

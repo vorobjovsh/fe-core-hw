@@ -70,16 +70,41 @@
 
 .citations-block{
     position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.citations-block::before{
+    position: absolute;
+    content: "";
+    width: 1.875rem;
+    height: 1.875rem;
+    border: 0.0625rem solid #e9e6e6;
+    background-color: #fcfafa;
+    box-shadow: 0 0.0625rem 0.3125rem 0 rgba(243,242,242,1);
+    bottom: -1rem;
+    z-index: -1;
+    transform: rotate(45deg); /* Поворачиваем на 45º */
+    -webkit-transform: rotate(45deg);
+    box-sizing: content-box;
+    
 }
 
 .citations-block::after{
     position: absolute;
-    content: url(../img/triangle.jpg);
+    content: "";
     width: 1.875rem;
     height: 1.875rem;
-    bottom: -2.75rem;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    border: none;
+    background-color: #fcfafa;
+    box-shadow: none;
+    bottom: -0.875rem;
+    z-index: 2;
+    transform: rotate(45deg); /* Поворачиваем на 45º */
+    -webkit-transform: rotate(45deg);
+    box-sizing: content-box;
+    
 }
 
 .citations-text{
@@ -88,7 +113,6 @@
     background-color: #fcfafa;
     border-radius: 0.125rem;
     box-shadow: 0 0.0625rem 0.3125rem 0 rgba(243,242,242,1);
-    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
     color: #263555;
     font-size: 0.9375rem;
 }
@@ -110,11 +134,9 @@
     text-align: center;
     font-size: 1rem;
     color: #263555;
-    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .citations-position{
-    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
     color: #4e5050;
     font-size: 0.8125rem;
     text-align: center;

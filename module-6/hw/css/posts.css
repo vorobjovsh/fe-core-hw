@@ -1,7 +1,6 @@
 .posts{
     display: flex;
     justify-content: space-between;
-    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .posts-content{
