@@ -1,0 +1,17 @@
+.specials{
+    -webkit-flex-basis: 65%;
+    -ms-flex-preferred-size: 65%;
+    flex-basis: 65%;
+}
+
+.tours-forms{
+   -webkit-flex-basis: 24%;
+   -ms-flex-preferred-size: 24%;
+   flex-basis: 24%; 
+}
+
+.specials-title,
+.browse-title,
+.search-title{
+    margin-bottom: 2.75rem;
+}

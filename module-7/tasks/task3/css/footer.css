@@ -1,0 +1,103 @@
+.footer{
+    
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    min-height: 8.375rem;
+    background-color: #30455b;
+    padding: 2.875rem 8.75rem;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: 75%;
+}
+
+.footer-item{
+    flex-basis: 33%;
+}
+
+.footer-link{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.footer-link:last-child{
+    margin-bottom: 0;
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+}
+
+.footer-blocks{
+    flex-basis: 25%;
+}
+
+.block-last{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.125rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.block-info{
+    font-size: 0.75rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+a.block-info:hover{
+    text-decoration: underline;
+}
+
+.footer-bottom{
+    padding: 1.75rem 0 1.875rem;
+}
+
+.bottom-icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5625rem;
+}
+
+.footer-icon{
+    width: 2.5rem; 
+    height: 2.5rem;
+    margin-right: 0.875rem;
+    filter: opacity(1);
+}
+
+.footer-icon:hover{
+    filter: opacity(0.7);
+}
+
+.tweet-icon{
+    background: url('../img/css_sprites.png') -70px -70px;
+}
+
+.fb-icon{
+    background: url('../img/css_sprites.png') -10px -10px;
+}
+
+.google-icon{
+    background: url('../img/css_sprites.png') -70px -10px;
+}
+
+.ln-icon{
+    background: url('../img/css_sprites.png') -10px -70px;
+}
+
+.bottom-copyright{
+    font-size: 0.75rem;
+    color: #fff;
+    text-align: center;
+}
