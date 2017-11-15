@@ -1,3 +1,8 @@
 .stay-title{
     margin-bottom: 3.125rem;
 }
+
+.stay iframe {
+    width: 100%;
+    border: 0;
+}
