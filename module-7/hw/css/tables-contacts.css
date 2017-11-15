@@ -1,0 +1,36 @@
+.tels{
+    margin-top: 5rem;
+}
+
+.tels-table{
+    color: #666565;
+    margin-bottom: 3.375rem;
+    width: 100%;
+}
+
+.tels-table:last-child{
+    margin-bottom: 0;
+}
+
+.tels-table caption{
+    font-size: 0.875rem;
+    padding-bottom: 1.75rem;
+}
+
+.tels-table td{
+    font-size: 0.8125rem;
+}
+
+.tels-table td:nth-of-type(even){
+    text-align: right;
+}
+
+.tels-mail{
+    font-size: 0.8125rem;
+    color: #fa7e7e;
+    text-decoration: none;
+}
+
+.tels-mail:hover{
+    text-decoration: underline;
+}

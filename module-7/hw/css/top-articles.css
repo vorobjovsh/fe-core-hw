@@ -1,0 +1,97 @@
+/*Agency profile*/
+/*----------------------------------*/
+.top-articles{
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 3.125rem;
+   border-bottom: 0.0625rem solid #dedbdb;
+}
+
+.article{
+    flex-basis: 70%;
+}
+
+.article-title{
+    margin-bottom: 3rem;
+}
+
+.article-img{
+    float: left;
+    margin: 0 1.5625rem 1.5625rem 0;
+}
+
+.article-block{
+    
+}
+
+.article-subtitle{
+    color: #263555;
+    font-size: 0.9375rem;
+    font-weight: normal;
+    margin-bottom: 0.9375rem;
+}
+
+.article-text{
+    color: #4e5050;
+    font-size: 0.8125rem; 
+    margin-bottom: 0.9375rem;
+}
+
+.article-text:last-child{
+    margin-bottom: 0;
+}
+
+
+/*Our principles*/
+/*---------------------------------------*/
+.principles{
+    flex-basis: 25%;
+}
+
+.principles-title{
+    margin-bottom: 3rem;
+}
+
+.principles-list{
+    counter-reset: list;
+}
+
+.list-item{
+    margin-bottom: 1.875rem;
+    display: flex;
+}
+
+.list-item:last-child{
+    margin-bottom: 0;
+}
+
+.list-item::before {
+    flex-shrink: 0;
+	counter-increment: list;
+	content: counter(list);
+	display: inline-block;
+	width: 1.875rem;
+	height: 1.875rem;
+	margin-right: 0.625rem;
+	border-radius: 50%;
+	background-color: #1789fc;
+	color: #fefefe;
+	text-align: center;
+	line-height: 1.875rem;
+}
+
+.list-article{
+	width: calc(100% - 2.875rem);
+}
+
+.list-subtitle{
+    color: #263555;
+    font-size: 0.9375rem;
+    font-weight: normal;
+    margin-bottom: 1.25rem;
+}
+
+.list-text{
+    color: #4e5050;
+    font-size: 0.8125rem;
+}

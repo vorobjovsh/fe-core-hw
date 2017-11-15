@@ -1,0 +1,79 @@
+.slider{
+    position: relative;
+    margin-bottom: 3.4375rem;
+}
+
+.slider-img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.slider-subtitle{
+    position: absolute;
+    top: 13.4375rem;
+    left: 0;
+    font-family: 'Pathway Gothic One', sans-serif; 
+    font-size: 1.375rem;
+    color: #263555;
+    background-color: #fff;
+    border: 1px solid #ecedec;
+    padding: 1.25rem 0.9375rem;
+    text-transform: uppercase;
+    z-index: 3;
+}
+
+.slider-title{
+    position: absolute;
+    top: 17.5625rem;
+    left: 0;
+    font-family: 'Pathway Gothic One', sans-serif; 
+    font-size: 2.125rem;
+    color: #fff;
+    background-color: #38afe5;
+    padding: 0.9375rem 0.3125rem 0.9375rem 0.9375rem;
+    text-transform: uppercase;
+}
+
+.slider-controls{
+    position: absolute;
+    bottom: 2.25rem;
+    left: 2.25rem;
+    z-index: 2;
+}
+
+.slider-prev, .slider-next{
+    float: left;
+    width: 2.8125rem;
+    height: 5.625rem;
+    background-color: hsla(199, 77%, 56%, 1);
+    text-decoration: none;
+	line-height: 5.625rem;
+	text-align: center;
+	font-size: 1.375rem;
+	color: #fff;
+}
+
+.slider-prev{
+    -webkit-border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    -moz-border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+}
+
+.slider-next{
+    -webkit-border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+    -moz-border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+}
+
+.slider-prev::before{
+    content: "\2190";
+}
+
+.slider-next::before{
+    content: "\2192";
+}
+
+.slider-prev:hover, .slider-next:hover{
+    background-color: hsla(199, 77%, 56%, 0.7);
+}

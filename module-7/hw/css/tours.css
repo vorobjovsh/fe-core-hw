@@ -1,0 +1,30 @@
+.tours{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.specials{
+    -webkit-flex-basis: 65%;
+    -ms-flex-preferred-size: 65%;
+    flex-basis: 65%;
+}
+
+.tours-forms{
+   -webkit-flex-basis: 24%;
+   -ms-flex-preferred-size: 24%;
+   flex-basis: 24%; 
+}
+
+.specials-title,
+.browse-title,
+.search-title{
+    margin-bottom: 2.75rem;
+}

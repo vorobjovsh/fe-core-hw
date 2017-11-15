@@ -1,0 +1,21 @@
+@import 'fonts.css';
+@import 'typography.css';
+@import 'base.css';
+@import 'header.css';
+@import 'main.css';
+
+@import 'slider.css';
+@import 'destinations.css';
+@import 'top-articles.css';
+@import 'bottom-articles.css';
+@import 'gallery.css';
+@import 'tours.css';
+@import 'specials.css';
+@import 'tours-forms.css';
+@import 'posts.css';
+@import 'contacts.css';
+@import 'stay.css';
+@import 'tables-contacts.css';
+@import 'form-contacts.css';
+
+@import 'footer.css';
