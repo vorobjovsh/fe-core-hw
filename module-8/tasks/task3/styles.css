@@ -1,0 +1,48 @@
+.wrapper{
+    height: 650px;
+}
+
+.red{
+    height: 250px;
+    background-color: red;
+}
+
+.block{
+    
+}
+
+.green{
+    background-color: green;
+    height: 250px;
+}
+
+.blue{
+    background-color: blue;
+    height: 150px;
+}
+
+@media screen and (min-width: 768px){
+    .block{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+}
+    
+    .green{
+        -webkit-flex-basis: 30%;
+        -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+        height: 400px;
+    }
+    
+    .blue{
+        -webkit-flex-basis: 70%;
+        -ms-flex-preferred-size: 70%;
+        flex-basis: 70%;
+        height: 400px;
+    }
+}

@@ -1,0 +1,35 @@
+.block{
+    margin: auto;
+    max-width: 500px;
+    height: 500px;
+    background-color: green;
+    border: 2px solid #333;
+}
+
+@media screen and (min-width: 480px){
+    .block{
+        background-color: red;
+        border: 4px solid #333;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .block{
+        background-color: blue;
+        border: 6px solid #333;
+    }
+}
+
+@media screen and (min-width: 960px){
+    .block{
+        background-color: orange;
+        border: 8px solid #333;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .block{
+        background-color: brown;
+        border: 10px solid #333;
+    }
+}

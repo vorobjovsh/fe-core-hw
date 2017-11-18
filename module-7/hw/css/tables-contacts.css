@@ -25,6 +25,16 @@
     text-align: right;
 }
 
+.tels-link{
+    font-size: 0.8125rem;
+    color: #666565;
+    text-decoration: none;
+}
+
+.tels-link:hover{
+    text-decoration: underline;
+}
+
 .tels-mail{
     font-size: 0.8125rem;
     color: #fa7e7e;
