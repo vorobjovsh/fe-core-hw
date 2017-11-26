@@ -1,0 +1,68 @@
+@media screen and (min-width: 64rem){
+    
+    .header{
+        display: block;
+        padding: 6.25rem 5.75rem 6.25rem 6.25rem;
+    }
+
+    .logo{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: 0 auto;
+        width: 8.625rem;
+        height: 8.625rem;
+        line-height: 8.625rem;
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+
+    .logo-link{
+        font-size: 3.75rem;
+    }
+
+    .nav{
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+    
+    .nav-item{
+        margin-bottom: 0;
+    }
+
+    .nav-item:nth-child(3){
+        margin-right: 7.125rem;
+    }
+
+    .nav-item:nth-child(4){
+        margin-left: 7.125rem;
+    }
+
+    .nav-item:last-child{
+        margin-right: 0;
+    }
+
+    .nav-link{
+        font-size: 1.75rem;
+    }
+
+    .submenu-link{
+        font-size: 1.25rem;
+    }
+    
+}
