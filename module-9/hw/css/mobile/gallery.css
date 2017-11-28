@@ -1,0 +1,19 @@
+.gallery{
+    
+}
+
+.gallery-title{
+    margin-bottom: 2.375rem;
+}
+
+.gallery-body{
+    
+}
+
+.gallery-item{
+    margin-bottom: 2.5rem;
+}
+
+.gallery-item:last-child{
+    margin-bottom: 0;
+}
