@@ -1,0 +1,7 @@
+@media screen and (min-width: 62rem){
+  .list-arrow{
+        -webkit-column-gap: 3rem;
+        -moz-column-gap: 3rem;
+        column-gap: 3rem;
+    }
+}

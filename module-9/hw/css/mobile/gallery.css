@@ -6,14 +6,10 @@
     margin-bottom: 2.375rem;
 }
 
-.gallery-body{
-    
-}
-
-.gallery-item{
+.gallery div[class*="col-"]{
     margin-bottom: 2.5rem;
 }
 
-.gallery-item:last-child{
+.gallery div[class*="col-"]:last-child{
     margin-bottom: 0;
 }

@@ -2,7 +2,7 @@
     
     .header{
         display: block;
-        padding: 6.25rem 2.5rem;
+        padding: 6.25rem 5.75rem 6.25rem 6.25rem;
     }
 
     .logo{
@@ -23,6 +23,22 @@
 
     .logo-link{
         font-size: 3.75rem;
+    }
+
+    .nav{
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     }
     
     .nav-item{

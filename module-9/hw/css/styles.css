@@ -5,6 +5,8 @@
 
 @import 'mobile/header.css';
 @import 'mobile/main.css';
+@import 'mobile/top-articles.css';
+@import 'mobile/bottom-articles.css';
 @import 'mobile/gallery.css';
 @import 'mobile/footer.css';
 
@@ -15,6 +17,8 @@
 
 @import 'tablet/header.css';
 @import 'tablet/main.css';
+@import 'tablet/top-articles.css';
+@import 'tablet/bottom-articles.css';
 @import 'tablet/gallery.css';
 @import 'tablet/footer.css';
 
@@ -27,5 +31,7 @@
 
 @import 'desktop/header.css';
 @import 'desktop/main.css';
+@import 'desktop/top-articles.css';
+@import 'desktop/bottom-articles.css';
 @import 'desktop/gallery.css';
 @import 'desktop/footer.css';

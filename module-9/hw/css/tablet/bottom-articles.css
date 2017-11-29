@@ -1,0 +1,34 @@
+@media screen and (min-width: 48rem){
+  /*What we offer*/
+/*-----------------------------------------*/
+    .bottom-articles .article-title{
+        margin-bottom: 2.5rem;
+    }
+    
+    .bottom-articles .article-subtitle{
+        margin-bottom: 1.6875rem;
+    }
+    
+    .arrow-block{
+        margin-top: 1.9375rem;
+    }
+    
+ /*Testimonial*/
+/*-------------------------------------------*/
+    .citations-title{
+        margin-bottom: 1.5rem;
+    }
+    
+    .citations-block::before{
+        bottom: -0.0625rem;    
+    }
+
+    .citations-block::after{
+        bottom: 0.125rem;   
+    }
+
+    .citations-text{
+        padding: 1rem;
+        font-size: 0.9375rem;
+    }
+}
