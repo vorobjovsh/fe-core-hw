@@ -62,3 +62,11 @@ button{
     box-shadow: 0rem 0.125rem 0.0625rem 0rem rgba(222, 219, 219, 0.004);
     display: inline-block;
 }
+
+.d-none{
+    display: none !important;
+}
+
+.d-block{
+    display: block !important;
+}

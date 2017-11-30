@@ -2,4 +2,12 @@
     /*.wrapper{
        width: 62rem;
      }*/
+    
+    .d-lg-none{
+        display: none !important;
+    }
+
+    .d-lg-block{
+        display: block !important;
+    }
 }
