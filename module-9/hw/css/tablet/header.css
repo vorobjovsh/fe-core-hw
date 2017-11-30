@@ -16,9 +16,7 @@
     }
     
     .nav{
-        -webkit-flex-basis: 38%;
-        -ms-flex-preferred-size: 38%;
-        flex-basis: 38%;
+        
     }
     
     .nav-item{

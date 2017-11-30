@@ -1,5 +1,10 @@
 @media screen and (min-width: 62rem){
- /*Our principles*/
+
+    .article-column{
+        margin-bottom: 0;
+    }    
+    
+    /*Our principles*/
 /*---------------------------------------*/
     .principles-list{
         -webkit-flex-wrap: wrap;
@@ -11,5 +16,12 @@
         -webkit-flex-basis: 100%;
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
+        margin-bottom: 1.875rem;
     }
+    
+    .list-item:last-child{
+        margin-bottom: 0;
+    }
+    
+    
 }

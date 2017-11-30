@@ -17,10 +17,10 @@ body{
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
 }
 
-.wrapper{
+/*.wrapper{
   width: 30rem;
   margin: 0 auto;
-}
+}*/
 
 .clearfix:after {
    content: "";
