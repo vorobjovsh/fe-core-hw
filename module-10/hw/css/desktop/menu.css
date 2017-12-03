@@ -1,0 +1,43 @@
+@media screen and (min-width: 64rem){
+
+    .menu__list{
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+    
+    .menu__item{
+        margin-bottom: 0;
+    }
+
+    .menu__item:nth-child(3){
+        margin-right: 7.125rem;
+    }
+
+    .menu__item:nth-child(4){
+        margin-left: 7.125rem;
+    }
+
+    .menu__item:last-child{
+        margin-right: 0;
+    }
+
+    .menu__link{
+        font-size: 1.75rem;
+    }
+
+    .menu__submenu-link{
+        font-size: 1.25rem;
+    }
+    
+}

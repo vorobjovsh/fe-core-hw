@@ -1,0 +1,5 @@
+@media screen and (min-width: 48rem){
+    .wrapper{
+       max-width: 48rem;
+     }
+}

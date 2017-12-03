@@ -1,0 +1,34 @@
+/* Mobile */
+@import 'mobile/fonts.css';
+@import 'mobile/typography.css';
+@import 'mobile/base.css';
+
+@import 'mobile/header.css';
+@import 'mobile/menu.css';
+@import 'mobile/main.css';
+@import 'mobile/gallery.css';
+@import 'mobile/footer.css';
+
+/* Tablet */
+@import 'tablet/fonts.css';
+@import 'tablet/typography.css';
+@import 'tablet/base.css';
+
+@import 'tablet/header.css';
+@import 'tablet/menu.css';
+@import 'tablet/main.css';
+@import 'tablet/gallery.css';
+@import 'tablet/footer.css';
+
+
+/* Desktop */
+
+@import 'desktop/fonts.css';
+@import 'desktop/typography.css';
+@import 'desktop/base.css';
+
+@import 'desktop/header.css';
+@import 'desktop/menu.css';
+@import 'desktop/main.css';
+@import 'desktop/gallery.css';
+@import 'desktop/footer.css';

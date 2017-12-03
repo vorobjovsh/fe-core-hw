@@ -1,0 +1,29 @@
+@media screen and (min-width: 48rem){
+    
+    .menu__list{
+        -webkit-flex-basis: 38%;
+        -ms-flex-preferred-size: 38%;
+        flex-basis: 38%;
+    }
+    
+    .menu__item{
+        margin-right: 3.875rem;
+        margin-bottom: 1.625rem; 
+    }
+
+    .menu__item:nth-child(3n){
+        margin-right: 0;
+    }
+
+    .menu__item:nth-last-child(-n + 3){
+        margin-bottom: 0;
+    }
+    
+    .menu__link{
+        font-size: 1.5rem;
+    }
+    
+    .menu__submenu-link{
+        font-size: 1.0625rem;
+    }
+}
