@@ -76,8 +76,7 @@
     }
     
     .footer__block-m::before{
-        content: "";
-        margin-right: 0;
+        display: none;
     }
     
     .footer__block-mail{
