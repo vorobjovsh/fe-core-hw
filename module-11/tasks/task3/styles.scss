@@ -24,17 +24,13 @@
 }
 
 
-$icons: apple-music, bugatti, invision, nike, viber;
+$icons: url(images/apple-music.svg), url(images/bugatti.svg), url(images/invision.svg), url(images/nike.svg), url(images/viber.svg);
+$i: 0;
 
 @each $icon in $icons{
-    background-image: url(images/#{$icon}.svg);
-}
-
-@for $i from 1 to 6 {
-    @each $icon in $icons{
-    .list li:nth-of-type(#{$i}) {
+        $i: $i+1;
+        .list li:nth-of-type(#{$i}) a{
             @extend %list__link;
-            background-image: url(images/#{$icon}.svg);
-     }
+            background-image: nth($icons, $i);
+        }
     }
-}
