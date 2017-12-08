@@ -1,0 +1,61 @@
+.list {
+  width: 40rem;
+  margin: auto;
+   display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  list-style: none; 
+}
+
+.list__item {
+  
+}
+
+.list li:nth-of-type(1) a, .list li:nth-of-type(2) a, .list li:nth-of-type(3) a, .list li:nth-of-type(4) a, .list li:nth-of-type(5) a {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  width: 5rem;
+  height: 2rem;
+  -webkit-filter: opacity(1);
+  filter: opacity(1);
+}
+.list li:hover:nth-of-type(1) a, .list li:hover:nth-of-type(2) a, .list li:hover:nth-of-type(3) a, .list li:hover:nth-of-type(4) a, .list li:hover:nth-of-type(5) a {
+  -webkit-filter: opacity(0.5);
+  filter: opacity(0.5);
+}
+
+.list li:nth-of-type(1) a {
+  background-image: url(images/apple-music.svg);
+}
+
+
+.list li:nth-of-type(2) a {
+  background-image: url(images/bugatti.svg);
+}
+
+
+.list li:nth-of-type(3) a {
+  background-image: url(images/invision.svg);
+}
+
+
+.list li:nth-of-type(4) a {
+  background-image: url(images/nike.svg);
+}
+
+
+.list li:nth-of-type(5) a {
+  background-image: url(images/viber.svg);
+}

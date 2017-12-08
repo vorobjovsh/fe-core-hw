@@ -1,0 +1,40 @@
+.list{
+   width: 40rem; 
+   margin: auto;
+}
+
+.list__item{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+%list__link{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 7.5rem;
+    height: 3rem;
+    filter: opacity(1);
+    
+    &:hover{
+        filter: opacity(0.5);
+    }
+}
+
+
+$icons: apple-music, bugatti, invision, nike, viber;
+
+@each $icon in $icons{
+    background-image: url(images/#{$icon}.svg);
+}
+
+@for $i from 1 to 6 {
+    @each $icon in $icons{
+    .list li:nth-of-type(#{$i}) {
+            @extend %list__link;
+            background-image: url(images/#{$icon}.svg);
+     }
+    }
+}
