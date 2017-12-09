@@ -1,0 +1,37 @@
+/*
+   Import partials below
+*/
+
+/* Mobile */
+@import 'mobile/fonts.scss';
+@import 'mobile/typography.scss';
+@import 'mobile/base.scss';
+
+@import 'mobile/header.scss';
+@import 'mobile/menu.scss';
+@import 'mobile/main.scss';
+@import 'mobile/gallery.scss';
+@import 'mobile/footer.scss';
+
+/* Tablet */
+@import 'tablet/fonts.scss';
+@import 'tablet/typography.scss';
+@import 'tablet/base.scss';
+
+@import 'tablet/header.scss';
+@import 'tablet/menu.scss';
+@import 'tablet/main.scss';
+@import 'tablet/gallery.scss';
+@import 'tablet/footer.scss';
+
+
+/* Desktop */
+@import 'desktop/fonts.scss';
+@import 'desktop/typography.scss';
+@import 'desktop/base.scss';
+
+@import 'desktop/header.scss';
+@import 'desktop/menu.scss';
+@import 'desktop/main.scss';
+@import 'desktop/gallery.scss';
+@import 'desktop/footer.scss';

@@ -1,0 +1,30 @@
+@media screen and (min-width: 64rem){
+
+    .gallery__body{
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .gallery__item{
+        -webkit-flex-basis: 31%;
+        -ms-flex-preferred-size: 31%;
+        flex-basis: 31%;
+
+        &:nth-last-child(-n + 3){
+            margin-bottom: 0;
+        }
+
+    }
+
+}

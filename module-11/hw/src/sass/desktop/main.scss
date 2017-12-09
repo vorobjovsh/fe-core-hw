@@ -1,0 +1,17 @@
+@media screen and (min-width: 64rem){
+    .main{
+       padding: 6.0625rem 3.75rem 8.75rem;
+    }
+    
+    .main__top{
+        bottom: 1.125rem;
+        right: 0.875rem;
+        width: 1.875rem;
+        height: 1.875rem;
+        -webkit-border-radius: 1.875rem;
+        -moz-border-radius: 1.875rem;
+        border-radius: 1.875rem;
+        font-size: 1rem;
+        line-height: 1.875rem;
+    }
+}

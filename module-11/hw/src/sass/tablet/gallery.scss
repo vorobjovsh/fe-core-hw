@@ -1,0 +1,27 @@
+@media screen and (min-width: 48rem){
+    .gallery__title{
+        margin-bottom: 3rem;
+    }
+    
+    .gallery__body{
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    
+    .gallery__item{
+        -webkit-flex-basis: 48%;
+        -ms-flex-preferred-size: 48%;
+        flex-basis: 48%;
+    }
+}
